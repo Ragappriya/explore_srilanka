@@ -1,0 +1,41 @@
+*{
+    /* when click the link scroll is smothly move */
+    scroll-behavior: smooth;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* navication section */
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_logo{
+    color: rgb(232, 140, 140);
+    /* background-color: rgba(209, 173, 16, 0.685); */
+    margin: 10px;
+}
+.nav ul{
+    /* ul list bullets remove */
+    list-style: none;
+    /* vertivcal change */
+    display: flex; 
+}
+
+.nav ul li a{
+    /* text link underline remove */
+    text-decoration: none;
+    color: green;
+    /* background-color: rgba(231, 182, 90, 0.776); */
+}
+
+.nav ul li{
+    /* text mrgine space bring */
+    margin: 10px;
+    align-content: center;
+}
+.nav ul li a:hover{
+    /* hover is curser move inside the link colour change */
+    color: rgb(19, 235, 170);
+}
